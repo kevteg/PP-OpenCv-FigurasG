@@ -1,0 +1,32 @@
+﻿Build started 26/08/2013 07:15:38 p.m..
+     1>Project "D:\Users\Admin\Documents\Visual Studio 2010\Projects\OpenCV_Practice02\OpenCV_Practice02\OpenCV_Practice02.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenCV_Practice02.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OpenCV_Practice02.cpp
+         OpenCV_Practice02.cpp
+     1>c:\opencv\build\include\opencv2\legacy\blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\opencv\build\include\opencv2\legacy\blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Admin\Documents\Visual Studio 2010\Projects\OpenCV_Practice02\Debug\OpenCV_Practice02.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenCV\build\x86\vc10\lib opencv_core243d.lib opencv_imgproc243d.lib opencv_highgui243d.lib opencv_ml243d.lib opencv_video243d.lib opencv_features2d243d.lib opencv_calib3d243d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenCV_Practice02.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\Admin\Documents\Visual Studio 2010\Projects\OpenCV_Practice02\Debug\OpenCV_Practice02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Admin\Documents\Visual Studio 2010\Projects\OpenCV_Practice02\Debug\OpenCV_Practice02.lib" /MACHINE:X86 Debug\OpenCV_Practice02.exe.embed.manifest.res
+         Debug\Figura.obj
+         Debug\OpenCV_Practice02.obj
+         Debug\stdafx.obj
+       Manifest:
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OpenCV_Practice02.exe.embed.manifest" /manifest Debug\OpenCV_Practice02.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         OpenCV_Practice02.vcxproj -> D:\Users\Admin\Documents\Visual Studio 2010\Projects\OpenCV_Practice02\Debug\OpenCV_Practice02.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenCV_Practice02.unsuccessfulbuild".
+         Touching "Debug\OpenCV_Practice02.lastbuildstate".
+     1>Done Building Project "D:\Users\Admin\Documents\Visual Studio 2010\Projects\OpenCV_Practice02\OpenCV_Practice02\OpenCV_Practice02.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.83
